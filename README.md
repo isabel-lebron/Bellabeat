@@ -759,9 +759,8 @@ ggplot(data = DailyActivity2, aes(x=TotalSteps, y=Calories, color = Calories)) +
   labs(title = 'CTotal Steps vs. Calories Burned', 
        x = "Total Steps", y = "Calories Burned")
 ```
-<img src="figures-side-1.png" width="50%"> <<img src="figures-side-2.png" width="50%">
 
-<img src="Title_files/figure-gfm/figures-side-1.png" width="50%" /><img src="Title_files/figure-gfm/figures-side-2.png" width="50%" /><img src="Title_files/figure-gfm/figures-side-3.png" width="50%" /><img src="Title_files/figure-gfm/figures-side-4.png" width="50%" /> 
+<img src="figures-side-1.png" width="50%" /><img src="figures-side-2.png" width="50%" /><img src="figures-side-3.png" width="50%" /><img src="figures-side-4.png" width="50%" /> 
  
 
 **Notes:** From the visuals above, we can see that the strongest
