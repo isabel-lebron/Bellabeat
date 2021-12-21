@@ -800,7 +800,7 @@ ggplot(data = SleepDay2, aes(x = TotalMinutesAsleep, y = TotalTimeInBed)) +
 
     ## `geom_smooth()` using formula 'y ~ x'
 
-![](Title_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->  
+![](unnamed-chunk-15-1.png)<!-- -->  
 **Notes:** In the above visual, a positive relationship between total
 minutes asleep and total time in bed is seen. For the most part, the
 time users spent asleep and the time they spent in bed was very similar.
