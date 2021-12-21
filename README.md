@@ -827,7 +827,7 @@ SleepDay2 %>%
        y = "Count")
 ```
 
-![](Title_files/figure-gfm/unnamed-chunk-16-1.png)<!-- -->  
+![](unnamed-chunk-16-1.png)<!-- -->  
 **Notes:** To get an idea about FitBit’s users’ sleep patterns, I
 decided to plot their sleep distribution to see if whether or not they
 get enough sleep according to CDC guidelines. By taking a look at the
@@ -850,7 +850,7 @@ ggplot(data = ReportDF, aes(ReportType, ReportTypeTF)) +
   labs(title = "Types of Weight Log Methods", x = "Weight Log Methods", y = "Number of Records")
 ```
 
-![](Title_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->  
+![](unnamed-chunk-17-1.png)<!-- -->  
 **Notes:** Earlier when looking at summary statistics for the Weight Log
 dataset, I decided it may be beneficial to see how dedicated FitBit
 users are when it comes to logging their weight. Although there are only
@@ -914,7 +914,7 @@ ggplot(data = SleepDF, aes(x = fct_inorder(Day), y = AvgSleepHours)) +
   geom_text(aes(label=AvgSleepHours), vjust=1.6, color="white", size=3.5)
 ```
 
-<img src="Title_files/figure-gfm/unnamed-chunk-18-1.png" width="50%" /><img src="Title_files/figure-gfm/unnamed-chunk-18-2.png" width="50%" /><img src="Title_files/figure-gfm/unnamed-chunk-18-3.png" width="50%" /><img src="Title_files/figure-gfm/unnamed-chunk-18-4.png" width="50%" />  
+<img src="unnamed-chunk-18-1.png" width="50%" /><img src="unnamed-chunk-18-2.png" width="50%" /><img src="unnamed-chunk-18-3.png" width="50%" /><img src="unnamed-chunk-18-4.png" width="50%" />  
 **Notes:** The visuals above show averages for some of the daily
 activities for each day of the week. As we can see, the two days with
 the most amount of physical activity, on average, were Tuesdays and
