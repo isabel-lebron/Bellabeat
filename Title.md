@@ -915,7 +915,7 @@ ggplot(data = SleepDF, aes(x = fct_inorder(Day), y = AvgSleepHours)) +
   geom_text(aes(label=AvgSleepHours), vjust=1.6, color="white", size=3.5)
 ```
 
-<img src="Title_files/figure-gfm/unnamed-chunk-18-1.png" width="50%" /><img src="Title_files/figure-gfm/unnamed-chunk-18-2.png" width="50%" /><img src="Title_files/figure-gfm/unnamed-chunk-18-3.png" width="50%" /><img src="Title_files/figure-gfm/unnamed-chunk-18-4.png" width="50%" />  
+<img src="unnamed-chunk-18-1.png" width="50%" /><img src="unnamed-chunk-18-2.png" width="50%" /><img src="unnamed-chunk-18-3.png" width="50%" /><img src="unnamed-chunk-18-4.png" width="50%" />  
 **Notes:** The visuals above show averages for some of the daily
 activities for each day of the week. As we can see, the two days with
 the most amount of physical activity, on average, were Tuesdays and
