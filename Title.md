@@ -797,11 +797,8 @@ ggplot(data = SleepDay2, aes(x = TotalMinutesAsleep, y = TotalTimeInBed)) +
   stat_smooth(method = lm) +
   labs(title = "Total Minutes Asleep vs. Total Time In Bed")
 ```
-
-    ## `geom_smooth()` using formula 'y ~ x'
-
-
 <img src="unnamed-chunk-15-1.png"/> 
+
 **Notes:** In the above visual, a positive relationship between total
 minutes asleep and total time in bed is seen. For the most part, the
 time users spent asleep and the time they spent in bed was very similar.
@@ -828,7 +825,7 @@ SleepDay2 %>%
        y = "Count")
 ```
 
-![](Title_files/figure-gfm/unnamed-chunk-16-1.png)<!-- -->  
+<img src="unnamed-chunk-16-1.png"/> 
 **Notes:** To get an idea about FitBit’s users’ sleep patterns, I
 decided to plot their sleep distribution to see if whether or not they
 get enough sleep according to CDC guidelines. By taking a look at the
@@ -851,7 +848,7 @@ ggplot(data = ReportDF, aes(ReportType, ReportTypeTF)) +
   labs(title = "Types of Weight Log Methods", x = "Weight Log Methods", y = "Number of Records")
 ```
 
-![](Title_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->  
+<img src="unnamed-chunk-17-1.png"/> 
 **Notes:** Earlier when looking at summary statistics for the Weight Log
 dataset, I decided it may be beneficial to see how dedicated FitBit
 users are when it comes to logging their weight. Although there are only
