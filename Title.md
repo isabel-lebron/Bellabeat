@@ -3,6 +3,8 @@ Bellabeat - Google Data Analytics Case Study
 Isabel Lebron
 12/20/2021
 
+<img src="bellabeat-logo.png"/> 
+
 ## Introduction to Bellabeat:
 
 Bellabeat is a high-tech manufacturer of health-focused products for
@@ -28,6 +30,7 @@ have been asked to focus on one of Bellabeat’s products and analyze
 smart device data to gain insight into how consumers are using their
 smart devices, which I will then use to help guide a new and improved
 marketing strategy for the company.
+<img src="bellabeat-time.png"/> 
 
 ### Step 1: Ask
 
