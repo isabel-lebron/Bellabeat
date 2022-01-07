@@ -759,9 +759,8 @@ ggplot(data = DailyActivity2, aes(x=TotalSteps, y=Calories, color = Calories)) +
   labs(title = 'CTotal Steps vs. Calories Burned', 
        x = "Total Steps", y = "Calories Burned")
 ```
-![](<Title_files/figure-gfm/-side-1.png>)
 
-<img src="Title_files/figure-gfm/figures-side-1.png" width="50%" /><img src="Title_files/figure-gfm/figures-side-2.png" width="50%" /><img src="Title_files/figure-gfm/figures-side-3.png" width="50%" /><img src="Title_files/figure-gfm/figures-side-4.png" width="50%" /> 
+<img src="figures-side-1.png" width="50%" /><img src="figures-side-2.png" width="50%" /><img src="figures-side-3.png" width="50%" /><img src="figures-side-4.png" width="50%" /> 
  
 
 **Notes:** From the visuals above, we can see that the strongest
@@ -801,7 +800,8 @@ ggplot(data = SleepDay2, aes(x = TotalMinutesAsleep, y = TotalTimeInBed)) +
 
     ## `geom_smooth()` using formula 'y ~ x'
 
-![](Title_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->  
+
+<img src="unnamed-chunk-15-1.png"/> 
 **Notes:** In the above visual, a positive relationship between total
 minutes asleep and total time in bed is seen. For the most part, the
 time users spent asleep and the time they spent in bed was very similar.
