@@ -30,6 +30,7 @@ have been asked to focus on one of Bellabeat’s products and analyze
 smart device data to gain insight into how consumers are using their
 smart devices, which I will then use to help guide a new and improved
 marketing strategy for the company.
+
 <img src="bellabeat-time.png"/> 
 
 ### Step 1: Ask
